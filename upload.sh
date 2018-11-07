@@ -13,5 +13,5 @@ git add .
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
 git push origin master --tags
-pod repo push mediatorPods A_Category.podspec --verbose --allow-warnings --use-libraries
+pod repo push mediatorPods B_Category.podspec --verbose --allow-warnings --use-libraries
 
